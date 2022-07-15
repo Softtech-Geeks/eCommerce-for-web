@@ -1,6 +1,6 @@
-<?php 
-	session_start();
-	include 'init.php';
+<?php
+session_start();
+include 'init.php';
 ?>
 
 <div class="container">
@@ -9,20 +9,20 @@
 		<?php
 		if (isset($_GET['pageid']) && is_numeric($_GET['pageid'])) {
 			$category = intval($_GET['pageid']);
-			$allItems = getAllFrom("*", "items", "where Cat_ID = {$category}", "AND Approve = 1", "Item_ID");
-			foreach ($allItems as $item) {
-				echo '<div class="col-sm-6 col-md-3">';
-					echo '<div class="thumbnail item-box">';
-						echo '<span class="price-tag">' . $item['Price'] . '</span>';
-						echo '<img class="img-responsive" src="img.png" alt="" />';
-						echo '<div class="caption">';
-							echo '<h3><a href="items.php?itemid='. $item['Item_ID'] .'">' . $item['Name'] .'</a></h3>';
-							echo '<p>' . $item['Description'] . '</p>';
-							echo '<div class="date">' . $item['Add_Date'] . '</div>';
-						echo '</div>';
-					echo '</div>';
-				echo '</div>';
-			}
+			$allItems = getAllFrom("*", "items", "Item_ID", "where Cat_ID = {$category}", "AND Approve = 1");
+			foreach ($allItems as $item) { ?>
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail item-box">
+						<span class="price-tag"> <?php echo $item['Price'] ?> </span>
+						<img class="img-responsive" src="img.png" alt="" />
+						<div class="caption">
+							<h3><a href="items.php?itemid=<?php echo $item['Item_ID']  ?>"><?php echo $item['Name']  ?></a></h3>
+							<p><?php echo $item['Description']  ?></p>
+							<div class="date"><?php echo $item['Add_Date']  ?></div>
+						</div>
+					</div>
+				</div>
+		<?php	}
 		} else {
 			echo 'You Must Add Page ID';
 		}
@@ -30,4 +30,4 @@
 	</div>
 </div>
 
-<?php include $tpl . 'footer.php'; ?>
+<?php include $tpl . 'footer.php' ?>

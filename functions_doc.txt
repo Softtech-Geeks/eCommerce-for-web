@@ -2,4 +2,4 @@
 == Functions Document ==
 ========================
 
-getAllFrom($field, $table, $where = NULL, $and = NULL, $orderfield, $ordering = 'DESC')
+getAllFrom($field, $table, $orderfield, $where = NULL, $and = NULL, $ordering = 'DESC')

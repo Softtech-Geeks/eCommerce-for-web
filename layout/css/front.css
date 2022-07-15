@@ -1,9 +1,8 @@
 /* Start Main Rulez */
 
 body {
-	background-color: #F4F4F4;
+	background-color: #f4f4f4;
 	font-size: 16px;
-	height: 3000px;
 }
 
 h1 {
@@ -18,24 +17,24 @@ h1 {
 }
 
 .asterisk {
-    font-size: 20px;
-    position: absolute;
-    right: 10px;
-    top: 7px;
-    color: #D20707;
+	font-size: 20px;
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	color: #d20707;
 }
 
 .main-form .asterisk {
-    font-size: 30px;
-    position: absolute;
-    right: 30px;
-    top: 8px;
-    color: #D20707;
+	font-size: 30px;
+	position: absolute;
+	right: 30px;
+	top: 8px;
+	color: #d20707;
 }
 
 .nice-message {
 	padding: 10px;
-	background-color: #FFF;
+	background-color: #fff;
 	margin: 10px 0;
 	border-left: 5px solid #080;
 }
@@ -58,11 +57,11 @@ h1 {
 	font-size: 1em;
 }
 
-.navbar-inverse .navbar-nav > .open>a,
-.navbar-inverse .navbar-nav > .open>a:focus,
-.navbar-inverse .navbar-nav > .open>a:hover,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
 .dropdown-menu {
-    background-color: #3498db;
+	background-color: #3498db;
 }
 
 .dropdown-menu {
@@ -74,14 +73,14 @@ h1 {
 }
 
 .dropdown-menu > li > a {
-	color: #FFF;
+	color: #fff;
 	padding: 10px 15px;
 }
 
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
-    color: #FFF;
-    background-color: #8e44ad;
+	color: #fff;
+	background-color: #8e44ad;
 }
 
 .form-control {
@@ -94,7 +93,7 @@ h1 {
 
 .upper-bar {
 	padding: 10px;
-	background-color: #FFF
+	background-color: #fff;
 }
 
 .my-image {
@@ -117,7 +116,7 @@ h1 {
 }
 
 .login-page [data-class="login"].selected {
-	color: #337AB7;
+	color: #337ab7;
 }
 
 .login-page [data-class="signup"].selected {
@@ -125,7 +124,7 @@ h1 {
 }
 
 .login-page h1 {
-	color: #C0C0C0;
+	color: #c0c0c0;
 }
 
 .login-page h1 span {
@@ -137,18 +136,18 @@ h1 {
 }
 
 .the-errors .msg {
-    padding: 10px;
-    text-align: left;
-    background-color: #fff;
-    margin-bottom: 8px;
-    border-right: 1px solid #e0e0e0;
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
-    color: #919191;
+	padding: 10px;
+	text-align: left;
+	background-color: #fff;
+	margin-bottom: 8px;
+	border-right: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	color: #919191;
 }
 
 .the-errors .error {
-    border-left: 5px solid #cd6858
+	border-left: 5px solid #cd6858;
 }
 
 /* End Login Page */
@@ -160,22 +159,22 @@ h1 {
 }
 
 .item-box .price-tag {
-    background-color: #B4B4B4;
-    padding: 2px 10px;
-    position: absolute;
-    left: 0;
-    top: 10px;
-    font-weight: bold;
-    color: #FFF;
+	background-color: #b4b4b4;
+	padding: 2px 10px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	font-weight: bold;
+	color: #fff;
 }
 
 .item-box .approve-status {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background-color: #b85a5a;
-    color: #FFF;
-    padding: 3px 5px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	background-color: #b85a5a;
+	color: #fff;
+	padding: 3px 5px;
 }
 
 .item-box .caption p {
@@ -188,7 +187,7 @@ h1 {
 /* Start Profile Page */
 
 .information {
-	margin-top: 20px
+	margin-top: 20px;
 }
 
 .information ul {
@@ -201,7 +200,7 @@ h1 {
 }
 
 .information ul li:nth-child(odd) {
-	background-color: #EEE;
+	background-color: #eee;
 }
 
 .information ul li span {
@@ -212,7 +211,7 @@ h1 {
 .thumbnail .date {
 	text-align: right;
 	font-size: 13px;
-	color: #AAA;
+	color: #aaa;
 	font-weight: bold;
 }
 
@@ -233,7 +232,7 @@ h1 {
 	padding: 10px;
 }
 
-.item-info ul li { 
+.item-info ul li {
 	padding: 10px;
 }
 
@@ -247,12 +246,12 @@ h1 {
 }
 
 .tags-items a {
-    display: inline-block;
-    background-color: #e2e2e2;
-    padding: 2px 10px;
-    border-radius: 5px;
-    color: #666;
-    margin-right: 5px;
+	display: inline-block;
+	background-color: #e2e2e2;
+	padding: 2px 10px;
+	border-radius: 5px;
+	color: #666;
+	margin-right: 5px;
 }
 
 .add-comment h3 {
@@ -283,15 +282,15 @@ h1 {
 }
 
 .comment-box .lead:before {
-    content: "";
-    width: 0;
-    height: 0;
-    border-width: 15px;
-    border-style: solid;
-    border-color: transparent #e0e0e0 transparent transparent;
-    position: absolute;
-    left: -28px;
-    top: 10px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent #e0e0e0 transparent transparent;
+	position: absolute;
+	left: -28px;
+	top: 10px;
 }
 
 /* End Show Item Page */

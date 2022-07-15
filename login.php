@@ -58,7 +58,7 @@
 
 			if (isset($username)) {
 
-				$filterdUser = filter_var($username, FILTER_SANITIZE_STRING);
+				$filterdUser = filter_var($username, FILTER_UNSAFE_RAW);
 
 				if (strlen($filterdUser) < 4) {
 
